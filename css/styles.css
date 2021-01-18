@@ -35,7 +35,7 @@ h1 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Monserrat-light";
+  font-family: "Montserrat-light";
 }
 
 /* Download Buttons */
@@ -49,4 +49,34 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+  margin: 10% 15% 10% 15%;
+}
+
+.feature-container {
+  text-align: center;
+}
+
+.feature-heading {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+.feature-img {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+  font-family: "Montserrat-light";
+  color: #8f8f8f;
+  font-size: 1rem;
 }
