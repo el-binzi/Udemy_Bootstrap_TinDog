@@ -17,6 +17,12 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -54,11 +60,12 @@ h1 {
 /* Features */
 
 #features {
-  margin: 10% 15% 10% 15%;
+  margin: 7% 15% 7% 15%;
 }
 
-.feature-container {
+.feature-box {
   text-align: center;
+  padding: 4%;
 }
 
 .feature-heading {
@@ -68,7 +75,7 @@ h1 {
 
 .feature-img {
   color: #ef8172;
-  margin-bottom: 5%;
+  margin-bottom: 1rem;
 }
 
 .feature-img:hover {
@@ -79,4 +86,33 @@ h1 {
   font-family: "Montserrat-light";
   color: #8f8f8f;
   font-size: 1rem;
+}
+
+/* Testemonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
 }
